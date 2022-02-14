@@ -1,11 +1,13 @@
 # Author: Anh Vo (email: athuyvo_at_uw.edu)
 
 # This source code performs alpha and beta diversity on
-# 16S sequences using a given OTU, taxonomy, and sample table. 
+# 16S sequences using a given OTU, taxonomy, and sample table.
+
+# This script is in progress to be user-friendly.
 
 
 install.packages(c("vegan", "metacoder", "taxa", "ggplot2", "dplyr", 
-								"readr", "stringr", "agricolae", "ape"),
+		"readr", "stringr", "agricolae", "ape"),
                  repos = "http://cran.rstudio.com", dependencies = TRUE)
 
 
