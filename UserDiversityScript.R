@@ -45,7 +45,7 @@ library(agricolae)
 # Taxa data table should hve "OTU ID" as name 
 
 
-read_tables(otu, taxa, sample) {
+read_tables <- function(otu, taxa, sample) {
 	org_otu_data <<- read_tsv(otu)
 	tax_data <<- read_tsv(taxa)
 	sample_data <<- read_tsv(sample)
